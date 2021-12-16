@@ -39,6 +39,7 @@ body {
 
 .card {
   display: flex;
+  margin: 3em auto;
   flex-direction: column;
   max-width: min(90%, 450px);
   border-radius: 10px;
@@ -70,13 +71,6 @@ body {
   border-radius: 10px 10px 0 0;
   opacity: .2;
   z-index: 2;
-}
-
-.card__img {
-  position: relative;
-  display: block;
-  width: 100%;
-  opacity: 0;
 }
 
 .card__content {
@@ -177,8 +171,8 @@ body {
   }
 
   .card__heading {
-    max-width: 80%;
-    font-size: 2rem;
+    max-width: 90%;
+    font-size: 2.4rem;
   }
 
   .card__text {
