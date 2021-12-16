@@ -45,11 +45,11 @@ body {
   border-radius: 10px;
   background-color: var(--card-background-clr);
   text-align: center;
+  overflow: hidden;
 }
 
 .card__img__container {
   position: relative;
-  border-radius: 10px 10px 0 0;
   background-color: var(--accent-clr);
   background-image: url('./images/image-header-mobile.jpg');
   background-size: 100% 100%;
@@ -68,7 +68,6 @@ body {
   width: 100%;
   background: var(--accent-clr);
   background-size: 100%;
-  border-radius: 10px 10px 0 0;
   opacity: .2;
   z-index: 2;
 }
@@ -152,7 +151,6 @@ body {
   }
 
   .card__img__container {
-    border-radius: 0 10px 10px 0;
     background-image: url("./images/image-header-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -162,7 +160,6 @@ body {
   }
 
   .card__img__container::after {
-    border-radius: 0 10px 10px 0;
     padding-bottom: 0;
   }
 
